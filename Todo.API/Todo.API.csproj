@@ -18,5 +18,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Todo.BLL\Todo.BLL.csproj" />
+    <ProjectReference Include="..\Todo.DAL\Todo.DAL.csproj" />
+  </ItemGroup>
+
 
 </Project>
